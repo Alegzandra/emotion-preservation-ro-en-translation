@@ -28,10 +28,10 @@ This repository contains the code, datasets, and resources for the first study e
 
 ## Key Contributions
 
-- **Emotion distortion analysis** across two automatically translated English versions of REDv2
-- **Fine-tuned transformer models** trained on REDv2 (Romanian) and its translated counterparts
+- **Emotion distortion analysis** across two automatically translated English versions of [REDv2](https://huggingface.co/datasets/Alegzandra/REDv2)
+- **Fine-tuned transformer models** trained on REDv2 (Romanian) and its translated counterparts (using [Google Translate](https://huggingface.co/datasets/Alegzandra/REDv2_EN) and [NLLB](https://huggingface.co/datasets/Alegzandra/REDv2_NLLB))
 - **Feature-engineered models** incorporating Machine Translation Quality Estimation (MTQE) signals from [TransQuest](https://tharindudr.github.io/TransQuest/)
-- **Re-annotated test sets** for translated datasets — the first Romanian–English datasets for emotion distortion research
+- **Re-annotated test sets** for translated datasets — the first Romanian–English datasets for emotion distortion research (for both [Google Translate](https://huggingface.co/datasets/Alegzandra/REDv2_EN_ANN) and [NLLB](https://huggingface.co/datasets/Alegzandra/REDv2_NLLB_ANN)
 - **Generative model evaluation** on REDv2 and its translated versions
 - **Quantitative and qualitative statistical analyses** of emotion shift patterns
 
